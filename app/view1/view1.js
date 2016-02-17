@@ -12,6 +12,6 @@ angular.module('myApp.view1', ['ngRoute'])
 .controller('View1Ctrl', ['$scope',function($scope) {
     $scope.array = [1,2,3];
       _.forEach($scope.array,function(n){
-        console.log(n);
+        console.log(n,'a');
       })
 }]);
